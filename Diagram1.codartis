@@ -1,0 +1,899 @@
+﻿{
+  "Version": 3,
+  "AreNodeDescriptionsVisible": true,
+  "ContainerNodes": [
+    {
+      "Id": 1,
+      "ZIndex": 0,
+      "Name": "ParqueAtracciones (1.0.0.0)",
+      "FullyQualifiedName": "ParqueAtracciones, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Stereotype": "Assembly",
+      "ToolTip": "assembly: ParqueAtracciones, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-728.587,-1080.3436",
+      "Size": "1496.0988,998.6901",
+      "IsPinned": true,
+      "CustomFillBrushKey": "DiagramItemCustomColorBrush4",
+      "Symbols": [
+        "{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}"
+      ],
+      "NamespaceLevel": 0
+    },
+    {
+      "Id": 2,
+      "ParentId": 1,
+      "ZIndex": 1,
+      "Name": "Entidades",
+      "FullyQualifiedName": "ParqueAtracciones.Entidades",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace ParqueAtracciones.Entidades\r\nassembly: ParqueAtracciones, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-279.1256,-1051.5436",
+      "Size": "958.8854,874.5439",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}"
+      ],
+      "NamespaceLevel": 2
+    },
+    {
+      "Id": 3,
+      "ParentId": 1,
+      "ZIndex": 2,
+      "Name": "Controlador",
+      "FullyQualifiedName": "ParqueAtracciones.Controlador",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace ParqueAtracciones.Controlador\r\nassembly: ParqueAtracciones, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-708.567,-680.3339",
+      "Size": "310.96,341.0364",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}"
+      ],
+      "NamespaceLevel": 2
+    }
+  ],
+  "LeafNodes": [
+    {
+      "Id": 4,
+      "ParentId": 2,
+      "ZIndex": 3,
+      "Name": "ControladorArranque",
+      "Stereotype": "Class",
+      "ToolTip": "class ParqueAtracciones.Entidades.ControladorArranque\r\nassembly: ParqueAtracciones, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "256.0565,-517.2382",
+      "MemberAreaSize": "143.7133,42.6",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"ControladorArranque\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}"
+      ],
+      "FullName": "class ParqueAtracciones.Entidades.ControladorArranque",
+      "Description": "",
+      "IsDescriptionVisible": true,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false,
+      "Members": [
+        {
+          "Name": "Atraccion Atraccion",
+          "Stereotype": "Property",
+          "FullName": "public Atraccion Atraccion { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Atraccion\",\"C\":{\"K\":\"NamedType\",\"N\":\"ControladorArranque\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "void Iniciar()",
+          "Stereotype": "Method",
+          "FullName": "public void Iniciar()",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Iniciar()\",\"C\":{\"K\":\"NamedType\",\"N\":\"ControladorArranque\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "ParentId": 2,
+      "ZIndex": 4,
+      "Name": "Atraccion",
+      "Stereotype": "Class",
+      "ToolTip": "class ParqueAtracciones.Entidades.Atraccion\r\nassembly: ParqueAtracciones, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-114.1415,-897.749",
+      "MemberAreaSize": "156.1867,131.6",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Atraccion\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}"
+      ],
+      "FullName": "class ParqueAtracciones.Entidades.Atraccion",
+      "Description": "",
+      "IsDescriptionVisible": true,
+      "IsAbstract": true,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false,
+      "Members": [
+        {
+          "Name": "int AveriasPendientes",
+          "Stereotype": "Property",
+          "FullName": "public int AveriasPendientes { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"AveriasPendientes\",\"C\":{\"K\":\"NamedType\",\"N\":\"Atraccion\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "string Calle",
+          "Stereotype": "Property",
+          "FullName": "public string Calle { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Calle\",\"C\":{\"K\":\"NamedType\",\"N\":\"Atraccion\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "int Capacidad",
+          "Stereotype": "Property",
+          "FullName": "public int Capacidad { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Capacidad\",\"C\":{\"K\":\"NamedType\",\"N\":\"Atraccion\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "string Codigo",
+          "Stereotype": "Property",
+          "FullName": "public string Codigo { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Codigo\",\"C\":{\"K\":\"NamedType\",\"N\":\"Atraccion\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "string Nombre",
+          "Stereotype": "Property",
+          "FullName": "public string Nombre { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Nombre\",\"C\":{\"K\":\"NamedType\",\"N\":\"Atraccion\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "int PersonasDentro",
+          "Stereotype": "Property",
+          "FullName": "public int PersonasDentro { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"PersonasDentro\",\"C\":{\"K\":\"NamedType\",\"N\":\"Atraccion\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "string Iniciar()",
+          "Stereotype": "Method",
+          "FullName": "public virtual string Iniciar()",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Iniciar()\",\"C\":{\"K\":\"NamedType\",\"N\":\"Atraccion\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        }
+      ]
+    },
+    {
+      "Id": 6,
+      "ParentId": 3,
+      "ZIndex": 5,
+      "Name": "TLista",
+      "Stereotype": "Class",
+      "ToolTip": "class ParqueAtracciones.Controlador.TLista\r\nassembly: ParqueAtracciones, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-686.2672,-651.5339",
+      "MemberAreaSize": "257.75,256.2",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"TLista\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}"
+      ],
+      "FullName": "class ParqueAtracciones.Controlador.TLista",
+      "Description": "",
+      "IsDescriptionVisible": true,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false,
+      "Members": [
+        {
+          "Name": "List<Atraccion> ListaAtracciones",
+          "Stereotype": "Field",
+          "FullName": "public static List<Atraccion> ListaAtracciones",
+          "Description": "",
+          "Symbol": "{\"K\":\"Field\",\"N\":\"ListaAtracciones\",\"C\":{\"K\":\"NamedType\",\"N\":\"TLista\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": true
+        },
+        {
+          "Name": "List<Operario> ListaOperarios",
+          "Stereotype": "Field",
+          "FullName": "public static List<Operario> ListaOperarios",
+          "Description": "",
+          "Symbol": "{\"K\":\"Field\",\"N\":\"ListaOperarios\",\"C\":{\"K\":\"NamedType\",\"N\":\"TLista\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": true
+        },
+        {
+          "Name": "List<Vagon> ListaVagones",
+          "Stereotype": "Field",
+          "FullName": "public static List<Vagon> ListaVagones",
+          "Description": "",
+          "Symbol": "{\"K\":\"Field\",\"N\":\"ListaVagones\",\"C\":{\"K\":\"NamedType\",\"N\":\"TLista\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": true
+        },
+        {
+          "Name": "List<Vehiculo> ListaVehiculos",
+          "Stereotype": "Field",
+          "FullName": "public static List<Vehiculo> ListaVehiculos",
+          "Description": "",
+          "Symbol": "{\"K\":\"Field\",\"N\":\"ListaVehiculos\",\"C\":{\"K\":\"NamedType\",\"N\":\"TLista\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": true
+        },
+        {
+          "Name": "void AgregarAtraccion(Atraccion a)",
+          "Stereotype": "Method",
+          "FullName": "public static void AgregarAtraccion(Atraccion a)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"AgregarAtraccion(ParqueAtracciones.Entidades.Atraccion)\",\"C\":{\"K\":\"NamedType\",\"N\":\"TLista\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": true
+        },
+        {
+          "Name": "void AgregarOperario(Operario o)",
+          "Stereotype": "Method",
+          "FullName": "public static void AgregarOperario(Operario o)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"AgregarOperario(ParqueAtracciones.Entidades.Operario)\",\"C\":{\"K\":\"NamedType\",\"N\":\"TLista\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": true
+        },
+        {
+          "Name": "void AgregarVagon(Vagon v)",
+          "Stereotype": "Method",
+          "FullName": "public static void AgregarVagon(Vagon v)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"AgregarVagon(ParqueAtracciones.Entidades.Vagon)\",\"C\":{\"K\":\"NamedType\",\"N\":\"TLista\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": true
+        },
+        {
+          "Name": "void AgregarVehiculo(Vehiculo v)",
+          "Stereotype": "Method",
+          "FullName": "public static void AgregarVehiculo(Vehiculo v)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"AgregarVehiculo(ParqueAtracciones.Entidades.Vehiculo)\",\"C\":{\"K\":\"NamedType\",\"N\":\"TLista\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": true
+        },
+        {
+          "Name": "Atraccion BuscarAtraccion(string codigo)",
+          "Stereotype": "Method",
+          "FullName": "public static Atraccion BuscarAtraccion(string codigo)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"BuscarAtraccion(string)\",\"C\":{\"K\":\"NamedType\",\"N\":\"TLista\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": true
+        },
+        {
+          "Name": "Operario BuscarOperarioLibre()",
+          "Stereotype": "Method",
+          "FullName": "public static Operario BuscarOperarioLibre()",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"BuscarOperarioLibre()\",\"C\":{\"K\":\"NamedType\",\"N\":\"TLista\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": true
+        },
+        {
+          "Name": "void EliminarAtraccion(int pos)",
+          "Stereotype": "Method",
+          "FullName": "public static void EliminarAtraccion(int pos)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"EliminarAtraccion(int)\",\"C\":{\"K\":\"NamedType\",\"N\":\"TLista\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": true
+        },
+        {
+          "Name": "void EliminarOperario(int pos)",
+          "Stereotype": "Method",
+          "FullName": "public static void EliminarOperario(int pos)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"EliminarOperario(int)\",\"C\":{\"K\":\"NamedType\",\"N\":\"TLista\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": true
+        },
+        {
+          "Name": "List<Atraccion> ListarAtracciones()",
+          "Stereotype": "Method",
+          "FullName": "public static List<Atraccion> ListarAtracciones()",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"ListarAtracciones()\",\"C\":{\"K\":\"NamedType\",\"N\":\"TLista\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": true
+        },
+        {
+          "Name": "List<Operario> ListarOperarios()",
+          "Stereotype": "Method",
+          "FullName": "public static List<Operario> ListarOperarios()",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"ListarOperarios()\",\"C\":{\"K\":\"NamedType\",\"N\":\"TLista\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": true
+        }
+      ]
+    },
+    {
+      "Id": 7,
+      "ParentId": 2,
+      "ZIndex": 6,
+      "Name": "CRA",
+      "Stereotype": "Class",
+      "ToolTip": "class ParqueAtracciones.Entidades.CRA\r\nassembly: ParqueAtracciones, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "104.2826,-294.2159",
+      "MemberAreaSize": "299.55,42.6",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"CRA\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}"
+      ],
+      "FullName": "class ParqueAtracciones.Entidades.CRA",
+      "Description": "",
+      "IsDescriptionVisible": true,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false,
+      "Members": [
+        {
+          "Name": "Operario OperarioActual",
+          "Stereotype": "Property",
+          "FullName": "public Operario OperarioActual { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"OperarioActual\",\"C\":{\"K\":\"NamedType\",\"N\":\"CRA\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "void ReportarAveria(string atraccion, int numero)",
+          "Stereotype": "Method",
+          "FullName": "public void ReportarAveria(string atraccion, int numero)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"ReportarAveria(string, int)\",\"C\":{\"K\":\"NamedType\",\"N\":\"CRA\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        }
+      ]
+    },
+    {
+      "Id": 10,
+      "ParentId": 2,
+      "ZIndex": 9,
+      "Name": "DispositivoOperario",
+      "Stereotype": "Class",
+      "ToolTip": "class ParqueAtracciones.Entidades.DispositivoOperario\r\nassembly: ParqueAtracciones, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-165.3945,-310.1997",
+      "MemberAreaSize": "235.0733,78.2",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"DispositivoOperario\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}"
+      ],
+      "FullName": "class ParqueAtracciones.Entidades.DispositivoOperario",
+      "Description": "",
+      "IsDescriptionVisible": true,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false,
+      "Members": [
+        {
+          "Name": "bool Disponible",
+          "Stereotype": "Property",
+          "FullName": "public bool Disponible { get; internal set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Disponible\",\"C\":{\"K\":\"NamedType\",\"N\":\"DispositivoOperario\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "bool Ocupado",
+          "Stereotype": "Property",
+          "FullName": "public bool Ocupado { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Ocupado\",\"C\":{\"K\":\"NamedType\",\"N\":\"DispositivoOperario\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "void Liberar()",
+          "Stereotype": "Method",
+          "FullName": "public void Liberar()",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Liberar()\",\"C\":{\"K\":\"NamedType\",\"N\":\"DispositivoOperario\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "void RecibirMensaje(string mensaje)",
+          "Stereotype": "Method",
+          "FullName": "public void RecibirMensaje(string mensaje)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"RecibirMensaje(string)\",\"C\":{\"K\":\"NamedType\",\"N\":\"DispositivoOperario\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        }
+      ]
+    },
+    {
+      "Id": 13,
+      "ParentId": 2,
+      "ZIndex": 12,
+      "Name": "MontañaRusa",
+      "Stereotype": "Class",
+      "ToolTip": "class ParqueAtracciones.Entidades.MontañaRusa\r\nassembly: ParqueAtracciones, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "455.2097,-858.4589",
+      "MemberAreaSize": "182.6533,60.4",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"MontañaRusa\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}"
+      ],
+      "FullName": "class ParqueAtracciones.Entidades.MontañaRusa",
+      "Description": "",
+      "IsDescriptionVisible": true,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false,
+      "Members": [
+        {
+          "Name": "List<Vagon> ListaVagones",
+          "Stereotype": "Property",
+          "FullName": "public List<Vagon> ListaVagones { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"ListaVagones\",\"C\":{\"K\":\"NamedType\",\"N\":\"MontañaRusa\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "string Iniciar()",
+          "Stereotype": "Method",
+          "FullName": "public override string Iniciar()",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Iniciar()\",\"C\":{\"K\":\"NamedType\",\"N\":\"MontañaRusa\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "string ToString()",
+          "Stereotype": "Method",
+          "FullName": "public override string ToString()",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"ToString()\",\"C\":{\"K\":\"NamedType\",\"N\":\"MontañaRusa\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        }
+      ]
+    },
+    {
+      "Id": 14,
+      "ParentId": 2,
+      "ZIndex": 13,
+      "Name": "Noria",
+      "Stereotype": "Class",
+      "ToolTip": "class ParqueAtracciones.Entidades.Noria\r\nassembly: ParqueAtracciones, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "235.0641,-953.1554",
+      "MemberAreaSize": "199.1067,60.4",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Noria\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}"
+      ],
+      "FullName": "class ParqueAtracciones.Entidades.Noria",
+      "Description": "",
+      "IsDescriptionVisible": true,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false,
+      "Members": [
+        {
+          "Name": "List<Vehiculo> ListaVehiculos",
+          "Stereotype": "Property",
+          "FullName": "public List<Vehiculo> ListaVehiculos { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"ListaVehiculos\",\"C\":{\"K\":\"NamedType\",\"N\":\"Noria\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "string Iniciar()",
+          "Stereotype": "Method",
+          "FullName": "public override string Iniciar()",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Iniciar()\",\"C\":{\"K\":\"NamedType\",\"N\":\"Noria\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "string ToString()",
+          "Stereotype": "Method",
+          "FullName": "public override string ToString()",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"ToString()\",\"C\":{\"K\":\"NamedType\",\"N\":\"Noria\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        }
+      ]
+    },
+    {
+      "Id": 15,
+      "ParentId": 2,
+      "ZIndex": 14,
+      "Name": "Operario",
+      "Stereotype": "Class",
+      "ToolTip": "class ParqueAtracciones.Entidades.Operario\r\nassembly: ParqueAtracciones, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-158.9039,-563.5016",
+      "MemberAreaSize": "207.06,131.6",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Operario\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}"
+      ],
+      "FullName": "class ParqueAtracciones.Entidades.Operario",
+      "Description": "",
+      "IsDescriptionVisible": true,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false,
+      "Members": [
+        {
+          "Name": "int AveriasAtendidas",
+          "Stereotype": "Property",
+          "FullName": "public int AveriasAtendidas { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"AveriasAtendidas\",\"C\":{\"K\":\"NamedType\",\"N\":\"Operario\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "string Codigo",
+          "Stereotype": "Property",
+          "FullName": "public string Codigo { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Codigo\",\"C\":{\"K\":\"NamedType\",\"N\":\"Operario\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "bool Disponible",
+          "Stereotype": "Property",
+          "FullName": "public bool Disponible { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Disponible\",\"C\":{\"K\":\"NamedType\",\"N\":\"Operario\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "DispositivoOperario Dispositivo",
+          "Stereotype": "Property",
+          "FullName": "public DispositivoOperario Dispositivo { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Dispositivo\",\"C\":{\"K\":\"NamedType\",\"N\":\"Operario\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "string Nombre",
+          "Stereotype": "Property",
+          "FullName": "public string Nombre { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Nombre\",\"C\":{\"K\":\"NamedType\",\"N\":\"Operario\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "void Liberar()",
+          "Stereotype": "Method",
+          "FullName": "public void Liberar()",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Liberar()\",\"C\":{\"K\":\"NamedType\",\"N\":\"Operario\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "void Ocupar()",
+          "Stereotype": "Method",
+          "FullName": "public void Ocupar()",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"Ocupar()\",\"C\":{\"K\":\"NamedType\",\"N\":\"Operario\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        }
+      ]
+    },
+    {
+      "Id": 16,
+      "ParentId": 2,
+      "ZIndex": 15,
+      "Name": "TorniqueteEntrada",
+      "Stereotype": "Class",
+      "ToolTip": "class ParqueAtracciones.Entidades.TorniqueteEntrada\r\nassembly: ParqueAtracciones, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "57.2285,-1022.7436",
+      "MemberAreaSize": "151.71,42.6",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"TorniqueteEntrada\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}"
+      ],
+      "FullName": "class ParqueAtracciones.Entidades.TorniqueteEntrada",
+      "Description": "",
+      "IsDescriptionVisible": true,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false,
+      "Members": [
+        {
+          "Name": "Atraccion Atraccion",
+          "Stereotype": "Property",
+          "FullName": "public Atraccion Atraccion { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Atraccion\",\"C\":{\"K\":\"NamedType\",\"N\":\"TorniqueteEntrada\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "void EntrarPersona()",
+          "Stereotype": "Method",
+          "FullName": "public void EntrarPersona()",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"EntrarPersona()\",\"C\":{\"K\":\"NamedType\",\"N\":\"TorniqueteEntrada\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        }
+      ]
+    },
+    {
+      "Id": 17,
+      "ParentId": 2,
+      "ZIndex": 16,
+      "Name": "TorniqueteSalida",
+      "Stereotype": "Class",
+      "ToolTip": "class ParqueAtracciones.Entidades.TorniqueteSalida\r\nassembly: ParqueAtracciones, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "83.8205,-552.3189",
+      "MemberAreaSize": "143.7133,42.6",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"TorniqueteSalida\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}"
+      ],
+      "FullName": "class ParqueAtracciones.Entidades.TorniqueteSalida",
+      "Description": "",
+      "IsDescriptionVisible": true,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false,
+      "Members": [
+        {
+          "Name": "Atraccion Atraccion",
+          "Stereotype": "Property",
+          "FullName": "public Atraccion Atraccion { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Atraccion\",\"C\":{\"K\":\"NamedType\",\"N\":\"TorniqueteSalida\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "void SalirPersona()",
+          "Stereotype": "Method",
+          "FullName": "public void SalirPersona()",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"SalirPersona()\",\"C\":{\"K\":\"NamedType\",\"N\":\"TorniqueteSalida\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        }
+      ]
+    },
+    {
+      "Id": 18,
+      "ParentId": 2,
+      "ZIndex": 17,
+      "Name": "Vagon",
+      "Stereotype": "Class",
+      "ToolTip": "class ParqueAtracciones.Entidades.Vagon\r\nassembly: ParqueAtracciones, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "434.6777,-625.0661",
+      "MemberAreaSize": "190.38,96",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Vagon\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}"
+      ],
+      "FullName": "class ParqueAtracciones.Entidades.Vagon",
+      "Description": "",
+      "IsDescriptionVisible": true,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false,
+      "Members": [
+        {
+          "Name": "bool Acoplado",
+          "Stereotype": "Property",
+          "FullName": "public bool Acoplado { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Acoplado\",\"C\":{\"K\":\"NamedType\",\"N\":\"Vagon\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "MontañaRusa Atraccion",
+          "Stereotype": "Property",
+          "FullName": "public MontañaRusa Atraccion { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Atraccion\",\"C\":{\"K\":\"NamedType\",\"N\":\"Vagon\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "int Numero",
+          "Stereotype": "Property",
+          "FullName": "public int Numero { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Numero\",\"C\":{\"K\":\"NamedType\",\"N\":\"Vagon\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "string Codigo",
+          "Stereotype": "Property",
+          "FullName": "public string Codigo { get; set; }",
+          "Description": "",
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Codigo\",\"C\":{\"K\":\"NamedType\",\"N\":\"Vagon\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        },
+        {
+          "Name": "void DetectarFallo(CRA cra)",
+          "Stereotype": "Method",
+          "FullName": "public void DetectarFallo(CRA cra)",
+          "Description": "",
+          "Symbol": "{\"K\":\"Method\",\"S\":\"DetectarFallo(ParqueAtracciones.Entidades.CRA)\",\"C\":{\"K\":\"NamedType\",\"N\":\"Vagon\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}",
+          "Accessibility": "Public",
+          "IsStatic": false
+        }
+      ]
+    }
+  ],
+  "Connectors": [
+    {
+      "Id": 8,
+      "SourceId": 4,
+      "TargetId": 5,
+      "ZIndex": 7,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          277.76177057689046,
+          -517.23823827884553,
+          true
+        ],
+        [
+          42.045153749559887,
+          -734.8528451181603,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 11,
+      "SourceId": 6,
+      "TargetId": 5,
+      "ZIndex": 10,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -428.51722771517063,
+          -574.69809523946185,
+          true
+        ],
+        [
+          -114.14151291710677,
+          -760.73576868159842,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 19,
+      "SourceId": 14,
+      "TargetId": 5,
+      "ZIndex": 18,
+      "Stereotype": "Inheritance",
+      "RoutePoints": [
+        [
+          235.06406275469357,
+          -873.51288585763393,
+          true
+        ],
+        [
+          42.045153749559887,
+          -826.1225574650075,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 20,
+      "SourceId": 13,
+      "TargetId": 5,
+      "ZIndex": 19,
+      "Stereotype": "Inheritance",
+      "RoutePoints": [
+        [
+          455.20972633621841,
+          -803.83738904961558,
+          true
+        ],
+        [
+          42.045153749559887,
+          -806.454317778008,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    }
+  ],
+  "Labels": [
+    {
+      "Id": 9,
+      "ConnectorId": 8,
+      "ZIndex": 8,
+      "AnchorKind": "End",
+      "AnchorVector": "0,0",
+      "Size": "56,17.5",
+      "IsPinned": false,
+      "Entries": [
+        {
+          "TextColumn1": "",
+          "TextColumn2": "Atraccion",
+          "Tooltip": "public Atraccion Atraccion { get; set; }",
+          "CanBeHidden": true,
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Atraccion\",\"C\":{\"K\":\"NamedType\",\"N\":\"ControladorArranque\",\"C\":{\"K\":\"Namespace\",\"N\":\"Entidades\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 12,
+      "ConnectorId": 11,
+      "ZIndex": 11,
+      "AnchorKind": "End",
+      "AnchorVector": "-49.2172,24.6601",
+      "Size": "88.25,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "*",
+          "TextColumn2": "ListaAtracciones",
+          "Tooltip": "public static List<Atraccion> ListaAtracciones",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Field\",\"N\":\"ListaAtracciones\",\"C\":{\"K\":\"NamedType\",\"N\":\"TLista\",\"C\":{\"K\":\"Namespace\",\"N\":\"Controlador\",\"C\":{\"K\":\"Namespace\",\"N\":\"ParqueAtracciones\",\"C\":{\"K\":\"Assembly\",\"N\":\"ParqueAtracciones\",\"V\":\"1.0.0.0\"}}}}}"
+        }
+      ]
+    }
+  ]
+}

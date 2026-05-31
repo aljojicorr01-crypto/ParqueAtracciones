@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/Diagrams/">
+    <File Path="Diagram1.codartis" />
+  </Folder>
+  <Project Path="ParqueAtracciones/ParqueAtracciones.csproj" />
+</Solution>
