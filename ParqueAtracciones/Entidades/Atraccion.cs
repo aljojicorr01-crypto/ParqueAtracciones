@@ -9,6 +9,9 @@ namespace ParqueAtracciones.Entidades
         public string Calle { get; set; }
         public int Capacidad { get; set; }
         public int PersonasDentro { get; set; }
+
+        public bool EstaActiva { get; set; }
+
         public int AveriasPendientes { get; set; }
 
         public Atraccion()
